@@ -1,0 +1,18 @@
+Anything of value that a business owns,Assets
+Debts that a business owes; claims on assets by outsiders,Liabilities
+Worth of the owners of a business; claims on assets by the owners,Equity
+Income that results when a business operates and generates sales,Revenue
+Costs associated with earning revenue,Expenses
+The account that keeps track of the amount of money the business has,Cash
+Would a computer technician count money from repairing a computer as revenue?,Yes
+Would a computer technician count selling a delivery van as revenue?,No
+The account commonly used to record income generated from providing a service,Fees Earned
+Account tracking the cost of paying employees,Wages Expense
+Account tracking the cost of the use of a property that belongs to someone else,Rent Expense
+Account tracking costs such as electricity/water/phone/gas/cable TV,Utilities Expense
+Account tracking the cost of small items used to run a business,Supplies Expense
+Account tracking the cost of protection from liability/damage/injury/theft,Insurance Expense
+Account tracking the cost of promoting the business,Advertising Expense
+Account tracking the costs related to repair and upkeep,Maintenance Expense
+Account tracking costs that are minor/non-repetitive,Miscellaneous Expense
+List of all accounts used by a business,Chart of Accounts

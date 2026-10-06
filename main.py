@@ -3,10 +3,10 @@ from quiz_question import QuizQuestion
 from card import Card
 
 if __name__ == "__main__":
-	questions = [
-		QuizQuestion(1, Card(1, "What is the capital of Panama?", "Panama City"), 100),
-		QuizQuestion(2, Card(2, "What is the capital of Canada?", "Ottawa"), 100),
-		QuizQuestion(3, Card(3, "What is the southernmost continent on Earth?", "Antarctica"), 100),
-	]
+	content = ""
+	with open("quiz.txt", "r") as content_file:
+		content = content_file.read()
+	content = [line for line in content.split("\n") if len(line) > 0]
+	questions = [QuizQuestion(i, Card(1, content[i].split(',')[0], content[i].split(',')[1]), 100) for i in range(len(content))]
 	quiz = Quiz(questions)
 	quiz.take()
