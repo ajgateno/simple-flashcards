@@ -1,6 +1,5 @@
 class Card:
 
-	def __init__(self, card_id, question, answer):
-		self.card_id = card_id
+	def __init__(self, question, answer):
 		self.question = question
 		self.answer = answer

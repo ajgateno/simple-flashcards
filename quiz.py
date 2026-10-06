@@ -7,7 +7,7 @@ class Quiz:
 
 	def take(self):
 		score_card = ScoreCard()
-		for question in self.questions:
-			question.ask(score_card)
+		for i in range(len(self.questions)):
+			self.questions[i].ask(i + 1, score_card)
 		score_card.report_score()
 		return score_card
